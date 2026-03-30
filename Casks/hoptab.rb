@@ -1,18 +1,18 @@
 cask "hoptab" do
-  version "1.1.1"
-  sha256 "42d50181ae634fefd6159596d5fa8b71701c98efcc476d4bec918b8a8e31bcf0"
+    version "1.2.0"
+    sha256 "8112911ea2aae5eea9ba5f27000159567994e079c1e0bcfca0e71ac4b3dc3a45"
 
-  url "https://github.com/royalbhati/HopTab/releases/download/v#{version}/HopTab-#{version}.zip"
-  name "HopTab"
-  desc "The workspace manager macOS should've shipped with"
-  homepage "https://github.com/royalbhati/HopTab"
+    url "https://github.com/royalbhati/HopTab/releases/download/v#{version}/HopTab-#{version}.zip"
+    name "HopTab"
+    desc "The workspace manager macOS should have shipped with"
+    homepage "https://github.com/royalbhati/HopTab"
 
-  depends_on macos: ">= :sonoma"
+    depends_on macos: ">= :sonoma"
 
-  app "HopTab.app"
+    app "HopTab.app"
 
-  zap trash: [
-    "~/Library/Preferences/com.royal.HopTab.plist",
-    "~/Library/Application Support/HopTab",
-  ]
-end
+    zap trash: [
+      "~/Library/Preferences/com.royal.HopTab.plist",
+      "~/Library/Application Support/HopTab",
+    ]
+  end
