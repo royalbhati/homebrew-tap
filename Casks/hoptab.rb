@@ -1,6 +1,6 @@
 cask "hoptab" do
-  version "1.2.0"
-  sha256 "c2829f2e06412d3315c852edb629a9045da341788b260aee604f53b067cc150a"
+  version "1.3.0"
+  sha256 "1da912f91b97de394aeb88ac6220649fa8e11a83e7869cf724d13cc7265e0965"
 
   url "https://github.com/royalbhati/HopTab/releases/download/v#{version}/HopTab-#{version}.zip"
   name "HopTab"
