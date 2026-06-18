@@ -7,7 +7,7 @@ cask "hoptab" do
   desc "The workspace manager macOS should have shipped with"
   homepage "https://github.com/royalbhati/HopTab"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "HopTab.app"
 
